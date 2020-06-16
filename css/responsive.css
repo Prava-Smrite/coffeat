@@ -1,0 +1,75 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 480px) and (max-width: 575.98px) {
+    /*service area start*/
+    .service {
+        padding: 45px 0 45px 0;
+    }
+    .inspired-area {
+        padding-top: 20px;
+    }
+    .inspired-area p {
+        padding: 20px 30px;
+    }
+    /*service area end*/
+    /*introduction part start*/
+    /*introduction part end*/
+    /*testimunial part start*/
+    /*testimunial part end*/
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*service area start*/
+    .service {
+        padding: 45px 0 45px 0;
+    }
+    .inspired-area {
+        padding-top: 20px;
+    }
+    .inspired-area p {
+        padding: 20px 30px;
+    }
+    /*service area end*/
+    /*introduction part start*/
+    /*introduction part end*/
+    /*testimunial part start*/
+    /*testimunial part end*/
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*service area start*/
+    .service {
+        padding: 45px 0 45px 0;
+    }
+    .inspired-area {
+        padding-top: 20px;
+    }
+    .inspired-area p {
+        padding: 20px 30px;
+    }
+    /*service area end*/
+    /*introduction part start*/
+    /*introduction part end*/
+    /*testimunial part start*/
+    /*testimunial part end*/
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*service area start*/
+    .service {
+        padding: 80px 0 80px 0;
+    }
+    /*service area end*/
+    /*introduction part start*/
+    /*introduction part end*/
+    /*testimunial part start*/
+    /*testimunial part end*/
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /*service area start*/
+    /*service area end*/
+    /*introduction part start*/
+    /*introduction part end*/
+    /*testimunial part start*/
+    /*testimunial part end*/
+}
