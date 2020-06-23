@@ -4,34 +4,27 @@
     padding: 0;
     outline: 0;
 }
-
 body {
     /* font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 }
-
 a {
     text-decoration: none;
 }
-
 ul,
 ol {
     list-style: none;
 }
-
 img {
     cursor: pointer;
     border: 0;
 }
-
 p {
     line-height: 150%;
 }
-
 .clear {
     overflow: hidden;
 }
-
 /*basic startup end*/
 /*header part start*/
 .header-part {
@@ -42,7 +35,6 @@ p {
     height: 130vh;
     position: relative;
 }
-
 .header-part::after {
     position: absolute;
     content: '';
@@ -52,15 +44,12 @@ p {
     left: 0%;
     background-color: rgba(63, 66, 76, .6);
 }
-
 .navbar {
     z-index: 1000;
 }
-
 .menu ul {
     text-align: right;
 }
-
 .menu ul li a {
     color: white !important;
     font-size: 18px;
@@ -68,37 +57,30 @@ p {
     font-weight: 400;
     text-transform: capitalize;
 }
-
 .navbar-light .navbar-toggler-icon {
     background-image: none;
 }
-
 .navbar-light .navbar-toggler {
     color: white;
     border: none;
 }
-
 .log-sign-menu li {
     margin-top: 10px;
 }
-
 .log-sign-menu li {
     padding: 0 25px;
 }
-
 .log-sign-menu li a {
     color: white !important;
     font-size: 14px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
 }
-
 .header-content {
     z-index: 100;
     position: relative;
     padding: 150px 0;
 }
-
 .header-content h3 {
     font-size: 36px;
     font-family: 'Open Sans', sans-serif;
@@ -106,7 +88,6 @@ p {
     font-weight: 700;
     color: white;
 }
-
 .header-content h1 {
     font-size: 100px;
     font-family: 'Open Sans', sans-serif;
@@ -115,7 +96,6 @@ p {
     text-transform: capitalize;
     margin-bottom: 30px;
 }
-
 .btn-custom {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
@@ -128,17 +108,14 @@ p {
     border-radius: 0;
     padding: 25px 80px;
 }
-
 /*header part end*/
 /*service area start*/
 .service {
     padding: 100px 0 100px 0;
 }
-
 .service-area {
     text-align: center;
 }
-
 .service-img i {
     font-size: 50px;
     color: #30788b;
@@ -149,7 +126,6 @@ p {
     line-height: 110px;
     padding: 0 6px 0 10px;
 }
-
 .service-area h3 {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
@@ -159,7 +135,6 @@ p {
     position: relative;
     letter-spacing: 1px;
 }
-
 .service-area h3::after {
     position: absolute;
     content: '';
@@ -169,25 +144,21 @@ p {
     top: 124%;
     left: 41%;
 }
-
 .service-area p {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     padding: 20px 0 0 0;
 }
-
 /*service area end*/
 /*introduction part start*/
 .introduction {
     background: #f7f7f7;
     padding: 110px 0 0 0;
 }
-
 .intro-content {
     padding: 65px 0 0 0;
 }
-
 .intro-content h5 {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
@@ -197,7 +168,6 @@ p {
     padding: 0 0 20px 0;
     position: relative;
 }
-
 .intro-content h5::after {
     position: absolute;
     content: '';
@@ -207,7 +177,6 @@ p {
     top: 70%;
     left: 0%;
 }
-
 .intro-content p {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
@@ -215,30 +184,24 @@ p {
     line-height: 28px;
     margin-bottom: 0;
 }
-
 .intro-content .p1 {
     padding: 0 14% 20px 0;
 }
-
 .intro-content .p2 {
     padding: 0 14% 20px 0;
 }
-
 .intro-content .p3 {
     padding: 0 16% 20px 0;
 }
-
 .mob-img img {
     background: transparent;
     box-shadow: -11px -7px 9px #ddd;
     text-align: left;
 }
-
 .playimg {
     padding: 0;
     margin-left: -20px;
 }
-
 /*introduction part end*/
 /*testimunial part start*/
 .slider {
@@ -248,7 +211,6 @@ p {
     background-size: cover;
     padding: 80px 80px 100px 80px;
 }
-
 .slider-img {
     content: '';
     width: 90px;
@@ -257,11 +219,9 @@ p {
     border-radius: 50%;
     border: 4px solid #748386;
 }
-
 .slider-content {
     color: #748386;
 }
-
 .slider-content .speech {
     color: #748386;
     font-size: 30px;
@@ -270,14 +230,12 @@ p {
     font-weight: 300;
     padding-top: 20px;
 }
-
 .slider-content .subheading {
     color: #748386;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
-
 .carousel-indicators {
     position: absolute;
     right: 0;
@@ -293,50 +251,44 @@ p {
     margin-left: 15%;
     list-style: none;
 }
-
 .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 50%;
 }
-
 /*testimunial part end*/
 /*around part start*/
 .around {
     padding: 70px 0 140px 0;
 }
-
 .around h4 {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     padding: 0 0 90px 0;
 }
-
+/* its for google map */
 #embeddedmap-display img {
     max-width: none !important;
     background: none !important;
     font-size: inherit;
     font-weight: inherit;
 }
-
+/* its for google map */
 .address-part {
     background-color: #f7f7f7;
     padding: 20px 0 30px 0;
     box-shadow: 1px 1px 7px;
 }
-
 .address-coffee {
     padding-left: 0;
 }
-
 .number {
     background-color: #2497b6;
     border-radius: 3px;
     height: 35px;
     width: 35px;
 }
-
 .number p {
     font-size: 21px;
     color: #ffffff;
@@ -344,55 +296,48 @@ p {
     font-weight: 700;
     padding: 0% 10%;
 }
-
 .coffee-details h3 {
     font-size: 24px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #2497b6;
 }
-
 .coffee-details p {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: #acb4bf;
 }
-
 .km h3 {
     font-size: 24px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #2497b6;
 }
-
 .pdt {
     padding-bottom: 15px;
 }
-
 /*around part end*/
 .last-hr {
     margin: 0;
 }
-
+/*footer part start*/
 .footer-part {
     padding: 40px 0;
     background-color: #f7f7f7;
 }
-
 .footer-content {
     text-align: right;
 }
-
 .footer-content p {
     margin: 0;
     font-size: 14px;
     letter-spacing: 1px;
     color: #8b8b8b;
 }
-
 .footer-content .email {
     margin: 0;
     font-size: 14px;
     letter-spacing: 1px;
     color: #000000;
 }
+/*footer part end*/
