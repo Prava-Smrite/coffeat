@@ -1,75 +1,521 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 480px) and (max-width: 575.98px) {
+
+    /* header part start */
+    .header-part {
+        height: 90vh;
+    }
+
+    .navbar-brand img {
+        width: 40%;
+    }
+
+    .log-sign-menu li {
+        padding: 0 5px;
+    }
+
+    .log-sign-menu li a {
+        font-size: 11px;
+    }
+
+    .header-content {
+        padding: 83px 0;
+    }
+
+    .header-content h3 {
+        font-size: 30px;
+    }
+
+    .header-content h1 {
+        font-size: 88px;
+    }
+
+    .btn-custom {
+        width: 208px;
+        padding: 10px 45px;
+    }
+
+    /* header part end */
     /*service area start*/
     .service {
         padding: 45px 0 45px 0;
     }
-    .inspired-area {
+
+    .service-area {
         padding-top: 20px;
     }
-    .inspired-area p {
+
+    .service-area p {
         padding: 20px 30px;
     }
+
     /*service area end*/
     /*introduction part start*/
+    .introduction {
+        padding: 45px 0 0 0;
+    }
+
+    .intro-content {
+        padding: 0 0 0 0;
+        text-align: center;
+    }
+
+    .intro-content h5::after {
+        left: 43%;
+    }
+
+    .intro-content .p1 {
+        padding: 0 0 20px 0;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .intro-content .p2 {
+        padding: 0 0 20px 0;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .intro-content .p3 {
+        padding: 0 0 20px 0;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .appstore {
+        text-align: right;
+    }
+
+    .playstore {
+        padding-left: 10%;
+    }
+
+    .mob-img {
+        padding: 50px 0 0 0;
+        text-align: center;
+    }
+
+    .mob-img img {
+        width: 50%;
+    }
+
     /*introduction part end*/
     /*testimunial part start*/
+    .slider {
+        padding: 45px 0 65px 0;
+    }
+
+    .slider-content .speech {
+        font-size: 22px;
+    }
+
+    .slider-img {
+        width: 70px;
+        height: 70px;
+    }
+
     /*testimunial part end*/
+    /* around part start */
+    .around {
+        padding: 45px 0 65px 0;
+    }
+
+    .around h4 {
+        padding: 0 0 35px 0;
+    }
+
+    .pdt {
+        padding-top: 20px;
+        margin-left: 5px;
+    }
+
+    .number {
+        height: 25px;
+        width: 25px;
+    }
+
+    .number p {
+        font-size: 16px;
+        padding-top: 0;
+    }
+
+    .coffee-details h3 {
+        font-size: 20px;
+    }
+
+    .km h3 {
+        font-size: 20px;
+    }
+
+    /* around part end */
+    /* footer part start */
+    .footer-part {
+        padding: 25px 0;
+    }
+
+    .footer-content p {
+        font-size: 13px;
+    }
+
+    /* footer part end */
 }
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* header part start */
+    .header-part {
+        height: 100vh;
+    }
+
+    .navbar-brand img {
+        width: 55%;
+    }
+
+    .log-sign-menu li {
+        padding: 0 5px;
+    }
+
+    .log-sign-menu li a {
+        font-size: 12px;
+    }
+
+    .header-content {
+        padding: 83px 0;
+    }
+
+    .header-content h3 {
+        font-size: 32px;
+    }
+
+    .header-content h1 {
+        font-size: 88px;
+    }
+
+    .btn-custom {
+        width: 208px;
+        padding: 10px 45px;
+    }
+
+    /* header part end */
     /*service area start*/
     .service {
         padding: 45px 0 45px 0;
     }
-    .inspired-area {
+
+    .service-area {
         padding-top: 20px;
     }
-    .inspired-area p {
+
+    .service-area p {
         padding: 20px 30px;
     }
+
     /*service area end*/
     /*introduction part start*/
+    .introduction {
+        padding: 45px 0 0 0;
+    }
+
+    .intro-content {
+        padding: 0 0 0 0;
+        text-align: center;
+    }
+
+    .intro-content h5::after {
+        left: 43%;
+    }
+
+    .intro-content .p1 {
+        padding: 0 0 20px 0;
+        font-weight: 300;
+    }
+
+    .intro-content .p2 {
+        padding: 0 0 20px 0;
+        font-weight: 300;
+    }
+
+    .intro-content .p3 {
+        padding: 0 0 20px 0;
+        font-weight: 300;
+    }
+
+    .appstore {
+        text-align: right;
+    }
+
+    .playstore {
+        padding-left: 10%;
+    }
+
+    .mob-img {
+        padding: 50px 0 0 0;
+        text-align: center;
+    }
+
+    .mob-img img {
+        width: 50%;
+    }
+
     /*introduction part end*/
     /*testimunial part start*/
+    .slider {
+        padding: 45px 0 65px 0;
+    }
+
+    .slider-content .speech {
+        font-size: 24px;
+    }
+
+    .slider-img {
+        width: 70px;
+        height: 70px;
+    }
+
     /*testimunial part end*/
+    /* around part start */
+    .around {
+        padding: 45px 0 65px 0;
+    }
+
+    .around h4 {
+        padding: 0 0 35px 0;
+    }
+
+    .google-map {
+        margin-left: 5px;
+    }
+
+    .pdt {
+        padding-top: 20px;
+        margin-left: 5px;
+    }
+
+    .address-coffee {
+        margin: 0 auto;
+    }
+
+    .number {
+        height: 30px;
+        width: 30px;
+    }
+
+    .number p {
+        font-size: 16px;
+        padding-top: 2px;
+    }
+
+    .coffee-details h3 {
+        font-size: 20px;
+    }
+
+    .km h3 {
+        font-size: 20px;
+    }
+
+    /* around part end */
+    /* footer part start */
+    .footer-part {
+        padding: 25px 0;
+    }
+
+    .footer-content p {
+        font-size: 12px;
+    }
+
+    /* footer part end */
 }
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* header part start */
+    .header-part {
+        height: 100vh;
+    }
+
+    .navbar-brand img {
+        width: 55%;
+    }
+
+    .header-content {
+        padding: 90px 0;
+    }
+
+    .btn-custom {
+        padding: 15px 60px;
+    }
+
+    /* header part end */
     /*service area start*/
     .service {
         padding: 45px 0 45px 0;
     }
-    .inspired-area {
+
+    .service-area {
         padding-top: 20px;
     }
-    .inspired-area p {
+
+    .service-area p {
         padding: 20px 30px;
     }
+
     /*service area end*/
     /*introduction part start*/
+    .introduction {
+        padding: 45px 0 0 0;
+    }
+
+    .intro-content {
+        padding: 0 0 0 0;
+        text-align: center;
+    }
+
+    .intro-content h5::after {
+        left: 43%;
+    }
+
+    .intro-content .p1 {
+        padding: 0 0 20px 0;
+        font-weight: 300;
+    }
+
+    .intro-content .p2 {
+        padding: 0 0 20px 0;
+        font-weight: 300;
+    }
+
+    .intro-content .p3 {
+        padding: 0 0 20px 0;
+        font-weight: 300;
+    }
+
+    .appstore {
+        text-align: right;
+    }
+
+    .playstore {
+        padding-left: 10%;
+    }
+
+    .mob-img {
+        padding: 50px 0 0 0;
+        text-align: center;
+    }
+
+    .mob-img img {
+        width: 50%;
+    }
+
     /*introduction part end*/
     /*testimunial part start*/
+    .slider {
+        padding: 45px 80px 65px 80px;
+    }
+
+    .slider-content .speech {
+        font-size: 24px;
+    }
+
+    .slider-img {
+        width: 70px;
+        height: 70px;
+    }
+
     /*testimunial part end*/
+    /* around part start */
+    .around {
+        padding: 45px 0 65px 0;
+    }
+
+    .around h4 {
+        padding: 0 0 35px 0;
+    }
+
+    .number {
+        height: 25px;
+        width: 25px;
+    }
+
+    .number p {
+        font-size: 16px;
+    }
+
+    .coffee-details h3 {
+        font-size: 18px;
+    }
+
+    .coffee-details p {
+        font-size: 12px;
+    }
+
+    .km h3 {
+        font-size: 18px;
+    }
+
+    /* around part end */
+    /* footer part start */
+    .footer-part {
+        padding: 25px 0;
+    }
+
+    /* footer part start */
 }
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* header part start */
+    .header-content {
+        padding: 100px 0;
+    }
+
+    /* header part end */
     /*service area start*/
     .service {
         padding: 80px 0 80px 0;
     }
+
     /*service area end*/
     /*introduction part start*/
+    .introduction {
+        padding: 80px 0 0 0;
+    }
+
+    .intro-content {
+        padding: 10px 0 0 0;
+    }
+
+    .playimg {
+        margin-left: 12px;
+    }
+
     /*introduction part end*/
     /*testimunial part start*/
     /*testimunial part end*/
+    /* around part start */
+    .around {
+        padding: 60px 0 85px 0;
+    }
+
+    .around h4 {
+        padding: 0 0 60px 0;
+    }
+
+    /* around part end */
 }
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    /* header part start */
+    /* header part end */
     /*service area start*/
     /*service area end*/
     /*introduction part start*/
     /*introduction part end*/
     /*testimunial part start*/
     /*testimunial part end*/
+    /* around part start */
+    /* around part end */
 }
